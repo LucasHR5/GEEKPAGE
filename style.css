@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to right, #8ea08a, #cec48e, #CECBC8CC);
+    color: #333;
+}
+
+/* seção principal  */
+#Main {
+    background-color: #1d1d1d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Título do site */
+#Main h1 {
+    font-size: 60px;
+    color: #556B2F; 
+}
+
+/* Estilizando o Menu */
+#Menu {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#Menu h3 {
+    font-size: 1.5rem;
+    color: #556B2F;
+    text-align: center;
+    
+}
+
+dl#MenuDL{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 10px;
+    justify-content: center;
+    gap: 80px;
+}
+
+dt a{
+    font-size: 20px;
+    padding: 8px 0;
+    color: #ccc;
+}
+
+dt:hover {
+    background-color: #444;
+    cursor: pointer;
+}
+
+
+#Destaques {
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+/* Banner de destaque */
+#Destaques img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Títulos dentro de Destaques */
+#DestaqueSemana {
+    font-size: 2rem;
+    color: #1d1d1d;
+    margin: 10px 0;
+}
+    
+#InformaçõesFilme {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Sinopse e Elenco */
+#SinopseTitulo, #ElencoTitulo {
+    font-size: 20px;
+    color: #1d1d1d;
+    margin-top: 20px;
+}
+
+#SinopseConteúdo {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Listas de elenco */
+#Destaques dl {
+    margin-top: 10px;
+}
+
+#Destaques dt {
+    font-size: 1.1rem;
+    color: #333;
+    padding: 5px 0;
+}
+
+#Destaques dt:hover {
+    background-color: #fcf5f5;
+}
+
+/* Trailer */
+#TrailerTitulo {
+    font-size: 20px;
+    color: #1d1d1d;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* link de download */
+#posterTitulo {
+    font-size: 20px;
+    color: #1d1d1d;
+    margin-top: 30px;
+}
+
+a {
+    color: #ff5722;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* iframe do trailer */
+iframe {
+    margin-top: 20px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+
+
