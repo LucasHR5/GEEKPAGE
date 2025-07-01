@@ -23,5 +23,5 @@ A página tem como objetivo reunir conteúdos do universo geek de forma visual e
 
 1. Cheque o projeto Online:
    ```bash
-   https://vercel.com/lucas-rs-projects-bdd12bd5/geekpage
+     geekpage.vercel.app
 
