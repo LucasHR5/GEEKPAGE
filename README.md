@@ -21,3 +21,7 @@ A página tem como objetivo reunir conteúdos do universo geek de forma visual e
    ```bash
    git clone https://github.com/seu-usuario/geek-universe-page.git
 
+1. Cheque o projeto Online:
+   ```bash
+   https://vercel.com/lucas-rs-projects-bdd12bd5/geekpage
+
